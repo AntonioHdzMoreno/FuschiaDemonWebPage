@@ -1,12 +1,11 @@
 import React from 'react'
-
-
+import HI from '../img/svgs/HeartIcon.svg'
 export default function Header() {
   return (
 <>
 <div id = "head2">
             <div id="menu2">
-     <div id="figura"><h3 id="Nick">FusciaDemon<img id="cora2"src="/img/corazon.svg" alt=""></img></h3></div>
+     <div id="figura"><h3 id="Nick">FusciaDemon<img id="cora2" src={HI} alt=""></img></h3></div>
             </div>
         </div>
     <header id = "head">
