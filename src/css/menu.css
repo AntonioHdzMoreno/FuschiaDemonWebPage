@@ -79,12 +79,18 @@ border: 1pt solid #f51459;
 #Tabla
 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   max-width: 900px;
   background-color: #ffcccc;
   margin: auto;
   border: 5px solid #cc99cc ;
   border-top: 0px;
+}
+
+#hometabla
+{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
 }
 
 #Cominfo
