@@ -1,7 +1,5 @@
 import React from 'react'
 import Header from '../header'
-
-
 function Rules() {
   return (
     <>
@@ -19,4 +17,4 @@ function Rules() {
   )
 }
 
-export default rules
+export default Rules
