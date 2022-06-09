@@ -1,12 +1,8 @@
 import React from 'react'
-import Header from '../header'
-import CT from '../../img/svgs/CT.svg'
-import HI from '../../img/svgs/HeartIcon.svg'
-import mainicon from '../../img/example/icon.png'
 
-export default function Home() {
+export default function Tos() {
   return (
-    <>
+      <>
     <Header></Header>
     <div id="Tabla">
     <div id="hometabla">
@@ -37,6 +33,6 @@ export default function Home() {
     </div>
     </div>
     </div>
-    </>
+</>
   )
 }
