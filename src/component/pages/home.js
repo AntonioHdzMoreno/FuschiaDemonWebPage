@@ -19,7 +19,8 @@ export default function Home() {
     </div>
     
     <h3 id="Stat"> <img id="cora2" src={HI} alt=""></img>ART STATUS<img id="cora2"src={HI} alt=""></img></h3>
-    <h3 id="Status">Open Commissions</h3>
+    <h3 id="Status">Commissions Open-YCH Open<br></br> 
+    TRADES OPEN-Rn Only physical items trade x digital art(my trade part)</h3>
     <h3 id="Me"><img id="cora2" src={HI} alt=""></img>
     ABOUT ME<img id="cora2"  src={HI} alt=""></img></h3>
     <h3 id="Status">Im Cute</h3>

@@ -32,12 +32,6 @@ border: 1pt solid #f51459;
 }
 
 
-#head2
-{
-  margin: auto;
-  max-width: 908px;
-}
-
 
 #menu2
 {
@@ -82,8 +76,9 @@ border: 1pt solid #f51459;
   max-width: 900px;
   background-color: #ffcccc;
   margin: auto;
-  border: 5px solid #cc99cc ;
+  border: 5px solid #f51459;
   border-top: 0px;
+
 }
 
 #hometabla
@@ -126,6 +121,8 @@ border: 1pt solid #f51459;
    1px 1px 0 white;
    margin-top: 0px;
    margin-bottom: 0px;
+   background: rgb(255,55,120);
+   background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
 }
 
 
@@ -145,6 +142,8 @@ border: 1pt solid #f51459;
    1px 1px 0 white;
    margin-top: 0px;
    margin-bottom: 0px;
+   background: rgb(255,55,120);
+   background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
 }
 
 #Status
@@ -157,6 +156,7 @@ border: 1pt solid #f51459;
   font-weight:bolder;
    margin-top: 0px;
    border: 2pt solid #f51459;
+   
 }
 
 #Icon{
@@ -165,7 +165,9 @@ border: 1pt solid #f51459;
 
 #figura
 {
-	border-bottom: 40px solid #d83365;
+  background: rgb(255,55,120);
+  background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
+	border-bottom: 1px solid #d83365;
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 200px;
@@ -173,15 +175,18 @@ border: 1pt solid #f51459;
 
 #Nick
 {
+  background: rgb(255,55,120);
+  background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
   font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:white;
   font-weight:bolder;
   text-align: center;
-  margin-top: 5px;
   text-shadow:     -1px -1px 0 #f51459,  
   1px -1px 0 black,
   -1px 1px 0 #f51459,
    1px 1px 0 #f51459;
   border: 2pt solid #f51459;
+  padding: 0px;
+  margin: 0px;
 }

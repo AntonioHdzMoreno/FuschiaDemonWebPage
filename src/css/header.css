@@ -10,7 +10,16 @@ background-color: #23262e;
 background-color: #fbb3f5;
   margin: auto;
   max-width: 900px;
-  border: 5px solid #cc99cc ;
+  border: 5px solid #f51459;
+}
+
+#head2
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: auto;
+  margin-bottom: 0px;
+  max-width: 900px;
 }
 
 #comopen

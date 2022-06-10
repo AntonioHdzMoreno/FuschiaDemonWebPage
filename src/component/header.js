@@ -11,23 +11,20 @@ export default function Header() {
   }
 
   return (
-<>
-<div id = "head2">
-  <div id="menu2">
-     <div id="figura"><h3 id="Nick">FusciaDemon<img id="cora2" src={HI} alt=""></img></h3></div>
-            </div>
-        </div>
-    <header id = "head">
+<><div id = "head2">
+ <p id="Nick">FusciaDemon<img id="cora2" src={HI} alt=""></img></p>
+</div>
+    <div id = "head">
     <div id="menu">
-   
     <input class = "boton" type="button" onClick={() => routeChange("/")} value="HOME"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="MY ART"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="COMMISSIONS"/>
-    <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="TOS"/>
+    <input class = "boton" type="button" onClick={() => routeChange("/tos")} value="TOS"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="RULES"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="DNI"/>
     </div>
-    </header>
+    </div>
+    
 </>
   )
 }
