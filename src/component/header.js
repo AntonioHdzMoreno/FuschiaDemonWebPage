@@ -18,7 +18,7 @@ export default function Header() {
     <div id="menu">
     <input class = "boton" type="button" onClick={() => routeChange("/")} value="HOME"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="MY ART"/>
-    <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="COMMISSIONS"/>
+    <input class = "boton" type="button" onClick={() => routeChange("/commissions")} value="COMMISSIONS"/>
     <input class = "boton" type="button" onClick={() => routeChange("/tos")} value="TOS"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="RULES"/>
     <input class = "boton" type="button" onClick={() => routeChange("/rules")} value="DNI"/>
