@@ -9,7 +9,12 @@ export default function Commission() {
     <div id="Tabla">
     <br></br>
     <h3 id="Stat">I'm doing icons,chibis and fullbodys!</h3>
-    <div>
+    <br></br>
+    <div id ="Commission">
+    <h3>✨FULLBODYS=
+💗Flatcolor $20
+💗Fullcolor $25
+💗Full render $35</h3>
         <img id="fullbody" src={banana}></img>
     </div>
     </div>
