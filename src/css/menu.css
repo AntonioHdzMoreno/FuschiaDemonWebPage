@@ -1,44 +1,12 @@
-.boton{
-font-size: 20px;
-background-color: #f51459 ;
-color:white;
-border: 1pt solid #cc99cc ;
-width: 90%;
-height: 50px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-cursor: pointer;
--webkit-transition-duration: 0.4s; 
-transition-duration: 0.4s;
-margin: 5px;
-
-}
-
-.boton:hover {
-color: #0c0b0c;
-border: 1pt solid #f51459;
-}
-
-
 #Red
 {
   width: auto;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin:auto;
- 
+  margin:auto; 
   margin-left: 20px;
   margin-right: 20px;
   padding-bottom: 20px;
-}
-
-
-
-#menu2
-{
-  max-width: 620px;
-  height: auto;
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
 }
 
 #menu
@@ -57,16 +25,13 @@ border: 1pt solid #f51459;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
-
-
 
 #cora2
 {
-  height: 20px;
-  width: 20px;
- margin: auto;
+height: 20px;
+width: 20px;
+margin: auto;
 }
 
 #Tabla
@@ -78,13 +43,126 @@ border: 1pt solid #f51459;
   margin: auto;
   border: 5px solid #f51459;
   border-top: 0px;
+  height: 100%;
+}
 
+@media(max-width: 700px) and (min-width: 500px)
+{ 
+  #Tabla
+  {
+    max-width: 700px;
+    margin: auto;
+    border: 3px solid #f51459;
+  }
+  #Red
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+  }
+  #cora
+  {
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+  }
+ 
+  #hometabla
+  {
+  max-width: 700px;
+  }
+  
+#Stat
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:15px;
+}
+#Status
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:  15px;
+}
+
+}
+
+@media (max-width: 414px ) and (min-width: 300px)
+{ 
+  #Tabla
+  {
+    max-width: 360px;
+    margin: auto;
+    border: 3px solid #f51459;
+  }
+  #Red
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  #cora
+  {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+ 
+  #hometabla
+  {
+  max-width: 360px;
+  }
+  
+#Stat
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:10px;
+}
+#Status
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:  10px;
+}
+
+#Me
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+#cora2
+{
+height: 10px;
+width: 10px;
+margin: auto;
+}
+
+}
+
+
+
+
+#Icon
+{
+  height: auto;
+  max-width: 440px;
+  width: 100%;
 }
 
 #hometabla
 {
   grid-template-columns: 1fr 1fr;
   display: grid;
+  max-width: 900px;
+}
+
+#Lado2
+{
+  grid-template-columns: 1fr;
+  display: grid;
+  max-width: 900px;
 }
 
 #Cominfo
@@ -95,26 +173,15 @@ border: 1pt solid #f51459;
 }
 
 
-
-
-
-#Lado2
-{
-  display: grid;
-  grid-template-columns: 1fr;
-  background-color: gold;
-}
-
 #Stat
 {
   margin-left: 20px;
   margin-right: 20px;
+  font-size:30px;
   border: 2pt solid #f51459;
-  font-size: 30px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#f51459;
-  font-weight:bolder;
   text-shadow:     -1px -1px 0 white,  
   1px -1px 0 white,
   -1px 1px 0 white,
@@ -150,7 +217,7 @@ border: 1pt solid #f51459;
 {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 20px;
+  font: size 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color:#f51459;
   font-weight:bolder;
@@ -159,19 +226,6 @@ border: 1pt solid #f51459;
    text-align: center;
 }
 
-#Icon{
-
-}
-
-#figura
-{
-  background: rgb(255,55,120);
-  background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
-	border-bottom: 1px solid #d83365;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 200px;
-}
 
 #Nick
 {
@@ -189,4 +243,105 @@ border: 1pt solid #f51459;
   border: 2pt solid #f51459;
   padding: 0px;
   margin: 0px;
+}
+
+@media(max-width: 700px) and (min-width: 500px)
+{ 
+  #Tabla
+  {
+    max-width: 700px;
+    margin: auto;
+    border: 3px solid #f51459;
+  }
+  #Red
+  {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+  }
+  #cora
+  {
+    height: 50px;
+    width: 50px;
+    margin: 6px;
+  }
+ 
+  #hometabla
+  {
+  max-width: 700px;
+  }
+  
+#Stat
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:15px;
+}
+#Status
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:  15px;
+}
+#Me
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+}
+
+@media (max-width: 414px ) and (min-width: 300px)
+{ 
+  #Tabla
+  {
+    max-width: 360px;
+    margin: auto;
+    border: 3px solid #f51459;
+  }
+  #Red
+  {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+  }
+  #cora
+  {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+ 
+  #hometabla
+  {
+  max-width: 360px;
+  }
+  
+#Stat
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:12px;
+}
+#Status
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:  10px;
+}
+
+#Me
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+#cora2
+{
+height: 10px;
+width: 10px;
+margin: auto;
+}
+
 }

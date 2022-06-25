@@ -2,13 +2,16 @@
 @import url(imagenes.css);
 @import url(rules.css);
 @import url(commision.css);
+@import url(spin.css);
+@import url(artgallery.css);
+@import url(cssbox.css);
 body{
 background-color: #23262e;
 }
 
 #head
 {
-background-color: #fbb3f5;
+  background-color: #fbb3f5;
   margin: auto;
   max-width: 900px;
   border: 5px solid #f51459;
@@ -23,11 +26,30 @@ background-color: #fbb3f5;
   max-width: 900px;
 }
 
+.boton{
+  font-size:1.8vw;
+  background-color: #f51459 ;
+  color:white;
+  border: 1pt solid #cc99cc ;
+  width: 90%;
+  height: 50px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin: 5px;
+  }
+  
+  .boton:hover {
+  color: #0c0b0c;
+  border: 1pt solid #f51459;
+  }
+  
+
 #comopen
 {
   text-align: center;
   color:#0cf070;
-
 }
 
 #aboutme
@@ -35,19 +57,37 @@ background-color: #fbb3f5;
   text-align: center;
   color:#feff17;
 }
-
-#linea
-{
-  width: 50%;
-  height: 1px;
-  margin: auto;
-  padding-top: 10px;
-  border-top: 1px solid white;
-}
-
 #hearts {
   border: 20px solid pink;
   border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
   border-image-slice: 20 22;
   border-image-repeat: round;
+}
+
+/* Responsive Header */
+@media(max-width: 700px) and (min-width: 500px){
+  #head{   
+    max-width: 700px;
+  }
+  #head2{   
+    max-width: 700px;
+  }
+  .boton{
+    height: 40px;
+    margin: 3px;
+    }
+}
+
+@media (max-width: 414px ) and (min-width: 300px)
+{
+  #head{   
+    max-width: 360px;
+  }
+  #head2{   
+    max-width: 360px;
+  }
+  .boton{
+    height: 25px;
+    margin: 2px;
+    }
 }
