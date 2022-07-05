@@ -8,6 +8,7 @@ import mainicon from '../../img/example/icon.png'
 export default function Home() {
   return (
     <>
+    <div id="Espacio"></div>
     <Header></Header>
     <div id="Tabla">
     <div id="hometabla">
@@ -30,11 +31,11 @@ export default function Home() {
     
     <div id="lado2">
     <img id="Icon" src={mainicon} alt="mainicon"></img>
-    <h3 id="Stat"><img id="cora2"src={HI} alt=""></img>Likes
+    <h3 id="Likes"><img id="cora2"src={HI} alt=""></img>Likes
     <img id="cora2"src={HI} alt=""></img></h3>
-    <h3 id="Status">I like all things cute, pastel, pinks, colorful, punk/rock/goth/emo stuff and also creepy-cute 
-    stuff, kemonomimis, cartoons, videogames etc
-i'm kinda shy but i try my best,new to the ''furry-world''</h3>
+    <p id="LikesList">-I like all things cute, pastel,pinks,colorful<br></br>-Punk/ Rock /Goth /Emo stuff<br></br>-Creepy-cute 
+    stuff<br></br>-Kemonomimi, Anime ,cartoons. <br></br>-Videogames, etc.
+</p>
     
     </div>
     </div>

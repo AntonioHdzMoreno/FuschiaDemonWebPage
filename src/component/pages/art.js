@@ -25,11 +25,18 @@ export default function Art() {
     <>
     <Header></Header>
     <div id="Tabla">
-    <br></br>
+    <div>
     <p id="Stat" >Some of my work</p>
     <div id="Galeria">
     <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
-    alt="DIA" imgnumber = "image1" imgref="#image1" prevnumber="#image0" nextnumber="#image2"></Imagen>   
+    alt="DIA" imgnumber = "image1" imgref="#image1" prevnumber="#image0" nextnumber="#image2"></Imagen> 
+     <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
+    alt="DIA" imgnumber = "image2" imgref="#image2" prevnumber="#image1" nextnumber="#image3"></Imagen>
+      <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
+    alt="DIA" imgnumber = "image3" imgref="#image3" prevnumber="#image2" nextnumber="#image4"></Imagen>     
+      <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
+    alt="DIA" imgnumber = "image4" imgref="#image4" prevnumber="#image3" nextnumber="#image5"></Imagen>          
+    </div>
     </div>
     </div>
     </>

@@ -22,7 +22,6 @@
   height: 70px;
   width: 70px;
   margin: 10px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,112 +42,18 @@ margin: auto;
   margin: auto;
   border: 5px solid #f51459;
   border-top: 0px;
-  height: 100%;
+  max-height: 80%;
 }
-
-@media(max-width: 700px) and (min-width: 500px)
-{ 
-  #Tabla
-  {
-    max-width: 700px;
-    margin: auto;
-    border: 3px solid #f51459;
-  }
-  #Red
-  {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-bottom: 15px;
-  }
-  #cora
-  {
-    height: 50px;
-    width: 50px;
-    margin: 6px;
-  }
- 
-  #hometabla
-  {
-  max-width: 700px;
-  }
-  
-#Stat
-{
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size:15px;
-}
-#Status
-{
-  margin-left: 15px;
-  margin-right: 15px;
-  font-size:  15px;
-}
-
-}
-
-@media (max-width: 414px ) and (min-width: 300px)
-{ 
-  #Tabla
-  {
-    max-width: 360px;
-    margin: auto;
-    border: 3px solid #f51459;
-  }
-  #Red
-  {
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 10px;
-  }
-  #cora
-  {
-    height: 30px;
-    width: 30px;
-    margin: 3px;
-  }
- 
-  #hometabla
-  {
-  max-width: 360px;
-  }
-  
-#Stat
-{
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size:10px;
-}
-#Status
-{
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size:  10px;
-}
-
-#Me
-{
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 15px;
-}
-#cora2
-{
-height: 10px;
-width: 10px;
-margin: auto;
-}
-
-}
-
-
-
 
 #Icon
 {
-  height: auto;
-  max-width: 440px;
   width: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 #hometabla
@@ -158,12 +63,6 @@ margin: auto;
   max-width: 900px;
 }
 
-#Lado2
-{
-  grid-template-columns: 1fr;
-  display: grid;
-  max-width: 900px;
-}
 
 #Cominfo
 {
@@ -227,23 +126,39 @@ margin: auto;
 }
 
 
-#Nick
+#Likes
 {
-  background: rgb(255,55,120);
-  background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
-  font-size: 25px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:white;
-  font-weight:bolder;
-  text-align: center;
-  text-shadow:     -1px -1px 0 #f51459,  
-  1px -1px 0 black,
-  -1px 1px 0 #f51459,
-   1px 1px 0 #f51459;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:30px;
   border: 2pt solid #f51459;
-  padding: 0px;
-  margin: 0px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#f51459;
+  text-shadow:     -1px -1px 0 white,  
+  1px -1px 0 white,
+  -1px 1px 0 white,
+   1px 1px 0 white;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   background: rgb(255,55,120);
+   background: linear-gradient(360deg, rgba(255,55,120,1) 16%, rgba(255,59,123,1) 51%, rgba(255,189,210,1) 100%);
 }
+
+#LikesList
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    font: size 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#f51459;
+    font-weight:bolder;
+     margin-top: 0px;
+     border: 2pt solid #f51459;
+
+}
+
+
 
 @media(max-width: 700px) and (min-width: 500px)
 { 
@@ -277,6 +192,14 @@ margin: auto;
   margin-right: 15px;
   font-size:15px;
 }
+
+#Likes
+{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size:15px;
+}
+
 #Status
 {
   margin-left: 15px;
@@ -285,20 +208,24 @@ margin: auto;
 }
 #Me
 {
-  margin-left: 15px;
+  margin-left: 1px;
   margin-right: 15px;
   font-size: 15px;
 }
 
 }
 
-@media (max-width: 414px ) and (min-width: 300px)
+
+
+@media (max-width: 430px ) and (min-width: 330px)
 { 
   #Tabla
   {
-    max-width: 360px;
+    max-width: 400px;
     margin: auto;
     border: 3px solid #f51459;
+    height: 400px;
+    
   }
   #Red
   {
@@ -308,40 +235,241 @@ margin: auto;
   }
   #cora
   {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 3px;
+    padding-top: 10px;
   }
- 
+  #Icon
+  {
+    width: 100%;
+    height: 170px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
   #hometabla
   {
-  max-width: 360px;
+  max-width: 400px;
   }
   
 #Stat
 {
   margin-left: 10px;
   margin-right: 10px;
-  font-size:12px;
+  font-size:16px;
 }
+#Likes
+{
+  margin-left: 13px;
+  margin-right: 7px;
+  font-size:16px;
+}
+#LikesList
+{
+  margin-left: 13px;
+  margin-right: 7px;
+  font-size:  14px;
+}
+
 #Status
 {
   margin-left: 10px;
   margin-right: 10px;
-  font-size:  10px;
+  font-size:  14px;
 }
 
 #Me
 {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 12px;
+  font-size: 16px;
 }
 #cora2
 {
-height: 10px;
-width: 10px;
+height: 12px;
+width: 12px;
 margin: auto;
+}
+#Espacio
+{
+  height: 40px;
+}
+
+}
+
+/*Responsive*/
+
+@media (max-width: 320px ) and (min-width: 300px)
+{ 
+  #Tabla
+  {
+    max-width: 320px;
+    margin: auto;
+    border: 3px solid #f51459;
+    height: 400px; 
+  }
+  #Red
+  {
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-bottom: 10px;
+  }
+  #cora
+  {
+    height: 32px;
+    width: 32px;
+    margin: 2px;
+    padding-top: 10px;
+  }
+  #Icon
+  {
+    width: 100%;
+    height: 170px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  
+  #hometabla
+  {
+  max-width: 400px;
+  }
+  
+#Stat
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:16px;
+}
+#Likes
+{
+  margin-left: 13px;
+  margin-right: 7px;
+  font-size:16px;
+}
+#LikesList
+{
+  margin-left: 13px;
+  margin-right: 7px;
+  font-size:  14px;
+}
+
+#Status
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:  14px;
+}
+
+#Me
+{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+#cora2
+{
+height: 12px;
+width: 12px;
+margin: auto;
+}
+#Espacio
+{
+  height: 40px;
+}
+
+}
+
+
+
+
+/*Responsive*/
+
+@media (max-width: 280px ) and (min-width: 250px)
+{ 
+  #Tabla
+  {
+    max-width: 280px;
+    margin: auto;
+    border: 3px solid #f51459;
+    height: 400px; 
+  }
+  #Red
+  {
+    margin-left: 1px;
+    margin-right: 2px;
+    padding-bottom: 5px;
+  }
+  #cora
+  {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    padding-top: 10px;
+  }
+  #Icon
+  {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #hometabla
+  {
+  max-width: 280px;
+  }
+  
+#Stat
+{
+  margin-left: 10px;
+  font-size:13px;
+}
+
+#Status
+{
+  margin-left: 10px;
+  font-size:  13px;
+}
+
+#Me
+{
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#Likes
+{
+  margin-left: 5px;
+  margin-right: 20px;
+  font-size:14px;
+}
+#LikesList
+{
+  margin-left: 5px;
+  margin-right: 20px;
+  font-size:  12px;
+}
+
+
+#cora2
+{
+height: 12px;
+width: 12px;
+margin: auto;
+}
+#Espacio
+{
+  height: 20px;
 }
 
 }
