@@ -11,11 +11,7 @@ export default function Commission() {
     <h3 id="Title">I'm doing icons,chibis and fullbodys!</h3>
     <br></br>
     <div id ="Commission">
-    <h3>✨FULLBODYS=
-💗Flatcolor $20
-💗Fullcolor $25
-💗Full render $35</h3>
-        <img id="fullbody" src={banana}></img>
+ 
     </div>
     </div>
     <div id="Espacio"></div>

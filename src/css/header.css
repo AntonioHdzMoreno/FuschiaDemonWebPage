@@ -5,11 +5,13 @@
 @import url(spin.css);
 @import url(artgallery.css);
 @import url(cssbox.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('http://fonts.cdnfonts.com/css/amiga-forever');
+@import url('http://fonts.cdnfonts.com/css/nokia-cellphone-fc');
 body{
-background-image: url("../img/pixel.PNG");
 background-color: #23262e;
 }
-
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
 #Nick
 {
   background: rgb(255,55,120);
@@ -46,13 +48,13 @@ background-color: #23262e;
 }
 
 .boton{
-  font-size: 24px;
+  font-size: 26px;
   background-color: #f51459 ;
   color:white;
   border: 1pt solid #cc99cc ;
   width: 90%;
   height: 50px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   cursor: pointer;
   -webkit-transition-duration: 0.4s; 
   transition-duration: 0.4s;
