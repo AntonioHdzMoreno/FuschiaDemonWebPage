@@ -4,9 +4,9 @@ function Rules() {
   return (
     <>
     <Header></Header>
-    <div id="Tabla">
-      <br></br>
-    <h3 id="Stat">Rules</h3>
+    <div id="TablaRules">
+    <div>
+    <p id="Title" >Rules</p>
     <ul id="lista">
         <li>All details must be discussed before payment</li>
         <li>Payment BEFORE I start working and paid by PayPal or OXXO</li>
@@ -39,6 +39,7 @@ furaffinity.net/fucsiademon)</li>
         <li><b class = "negrita">Your draw can have corrections, just dm on time.</b></li>
         <li><b class = "negrita">Commercial use? dm me.</b></li>
     </ul>
+    </div>
     </div>
     </>
   )

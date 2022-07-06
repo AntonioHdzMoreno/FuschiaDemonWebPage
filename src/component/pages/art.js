@@ -23,10 +23,12 @@ export default function Art() {
 
     return (
     <>
+    <div id="Espacio"></div>
     <Header></Header>
-    <div id="Tabla">
+    
+    <div id="TablaArt">
     <div>
-    <p id="Stat" >Some of my work</p>
+    <p id="Title" >Some of my work</p>
     <div id="Galeria">
     <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
     alt="DIA" imgnumber = "image1" imgref="#image1" prevnumber="#image0" nextnumber="#image2"></Imagen> 
@@ -39,6 +41,7 @@ export default function Art() {
     </div>
     </div>
     </div>
+    <div id="Espacio"></div>
     </>
   )
 }

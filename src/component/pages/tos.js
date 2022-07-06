@@ -5,9 +5,9 @@ export default function Tos() {
   return (
      <>
     <Header></Header>
-    <div id="Tabla">
-    <br></br>
-    <h3 id="Stat">YCH AND COMMISSIONS TERMS OF SERVICE</h3>
+    <div id="TablaRules">
+    <div>
+    <p id="Title">Terms of Service</p>
     <ul id="lista">
         <li>Everything here applies to commissions as well as ychs</li>
         <li>If you have ANY questions please feel free to message me!! i'm very accessible. 
@@ -35,6 +35,7 @@ export default function Tos() {
           <li>Nsfw commissions are for +18y/o characters ONLY. No exceptions. (NO lol.i-sh.ota or similar.)/</li>
        </ul>
     </ul>
+    </div>
     </div>
 </>
   )
