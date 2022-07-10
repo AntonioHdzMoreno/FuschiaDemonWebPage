@@ -1,0 +1,16 @@
+{
+
+"draws" : [ 
+   { 
+    "id":"1",
+    "name": "Pareja",
+    "imgfull": "https://i.ibb.co/C7JDvzN/1.jpg"
+   },
+
+   { 
+    "id":"2",
+    "name": "Pareja2",
+    "imgfull": "https://i.ibb.co/C7JDvzN/1.jpg"
+   }
+]
+}

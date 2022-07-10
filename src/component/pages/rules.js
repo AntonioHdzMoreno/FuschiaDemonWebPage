@@ -1,8 +1,16 @@
 import React from 'react'
 import Header from '../header'
+import { useEffect } from 'react';
 function Rules() {
+
+  useEffect(() => {
+    document.title = 'Rules';
+  });
+
   return (
     <>
+       <div id="Refresh">
+       <div id="Espacio"></div>
     <Header></Header>
     <div id="TablaRules">
     <div>
@@ -41,6 +49,8 @@ furaffinity.net/fucsiademon)</li>
     </ul>
     </div>
     </div>
+    </div>
+    <div id="Espacio"></div>
     </>
   )
 }

@@ -4,10 +4,12 @@ import CT from '../../img/svgs/CT.svg'
 import CFF from '../../img/svgs/CFF.svg'
 import HI from '../../img/svgs/HeartIcon.svg'
 import mainicon from '../../img/example/icon.png'
+import { useEffect } from 'react';
 
 export default function Home() {
   return (
     <>
+    <div id="Refresh">
     <div id="Espacio"></div>
     <Header></Header>
     <div id="Tabla">
@@ -37,6 +39,7 @@ export default function Home() {
     stuff<br></br>-Kemonomimi, Anime ,cartoons. <br></br>-Videogames, etc.
 </p>
     
+    </div>
     </div>
     </div>
     </div>

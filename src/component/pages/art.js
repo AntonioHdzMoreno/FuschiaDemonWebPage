@@ -3,8 +3,14 @@ import Header from '../header'
 import Imagen from '../imagen';
 import { useEffect } from 'react';
 import mainicon from '../../img/example/icon.png'
+import Draw from '../jsonfiles/draws.json'
 
 export default function Art() {
+  
+useEffect(() => {
+  document.title = 'My Art';
+});
+
   function trigger(element, action) {
     var link = element.parentNode.querySelector(".cssbox_" + action)
     if (link)
@@ -22,13 +28,14 @@ export default function Art() {
     });
 
     return (
-    <>
+    <div id="Refresh">
     <div id="Espacio"></div>
     <Header></Header>
     
     <div id="TablaArt">
     <div>
     <p id="Title" >Some of my work</p>
+ 
     <div id="Galeria">
     <Imagen imgthumb = "https://i.ibb.co/C7JDvzN/1.jpg" imgfull ="https://i.ibb.co/C7JDvzN/1.jpg"
     alt="DIA" imgnumber = "image1" imgref="#image1" prevnumber="#image0" nextnumber="#image2"></Imagen> 
@@ -42,6 +49,6 @@ export default function Art() {
     </div>
     </div>
     <div id="Espacio"></div>
-    </>
+    </div>
   )
 }

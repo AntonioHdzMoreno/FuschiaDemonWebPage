@@ -1,7 +1,6 @@
 import React from 'react'
 import HI from '../img/svgs/HeartIcon.svg'
 import { useNavigate } from "react-router-dom";
-
 export default function Header() {
 
   let navigate = useNavigate(); 

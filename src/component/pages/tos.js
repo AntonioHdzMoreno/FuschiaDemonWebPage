@@ -1,9 +1,16 @@
 import React from 'react'
 import Header from '../header'
 import HI from '../../img/svgs/HeartIcon.svg'
+import { useEffect } from 'react';
 export default function Tos() {
+
+  useEffect(() => {
+    document.title = 'TOS';
+  });
   return (
      <>
+     <div id="Refresh">
+     <div id="Espacio"></div>
     <Header></Header>
     <div id="TablaRules">
     <div>
@@ -37,6 +44,8 @@ export default function Tos() {
     </ul>
     </div>
     </div>
+    </div>
+    <div id="Espacio"></div>
 </>
   )
 }
